@@ -1,34 +1,40 @@
 ﻿using System;
-using System.IO; //mandatory header file to perform IO operations.
 
-namespace Exceptionhandeling
+namespace Ransomization
 {
     class Program
     {
         static void Main(string[] args)
         {
-            StreamReader rdfile = null; //Object that reads the content of the file.
-            try //try catch is required to handle the unknown wxception ehilr reading and excwessing the file.
+            //Counting unique random numbers upto 100 in an array.
+            int[] arr = new int[100];
+            bool addtoarray = true;
+            int k = 0, randomnumber;
+            Random r = new Random();
+            while(k < 100)
             {
-                rdfile = File.OpenText("../../../Confedential.txt"); //passing th efile location to be opened
-                Console.WriteLine(rdfile.ReadToEnd()); //O/p all the contents of the file.
-            }
-            catch (FileNotFoundException nf) //Specific exception this block handles the exception.
-            {
-                Console.WriteLine(nf.Message);
-            }
-            catch(Exception ex) //if don't know the exact exception then can use general object Exception to handle the exception.
-            {
-                Console.WriteLine(ex.Message);
-            }
-            finally //Anything in this block is run even if exception occurs or not.
-            {
-                if (rdfile != null)
+                randomnumber = r.Next(1, 101);
+                addtoarray = true;
+                for(int l = 0; l < k; l++)
                 {
-                    rdfile.Close(); //Closes the object thus, stops reading the file.
-                    Console.WriteLine("object closed");
+                    if(arr[l] == randomnumber)
+                    {
+                        addtoarray = false;
+                        break;
+                    }
+                }
+                if(addtoarray == true)
+                {
+                    arr[k] = randomnumber;
+                    k++;
                 }
             }
+            Console.WriteLine("Length: {0}", arr.Length + Environment.NewLine);
+            foreach(int j in arr)
+            {
+                Console.Write("{0}, ", j);
+            }
+            Console.WriteLine(Environment.NewLine + Environment.NewLine);
         }
     }
 }
