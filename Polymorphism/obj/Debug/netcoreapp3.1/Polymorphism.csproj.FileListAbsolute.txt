@@ -1,0 +1,11 @@
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\Polymorphism\bin\Debug\netcoreapp3.1\Polymorphism.exe
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\Polymorphism\bin\Debug\netcoreapp3.1\Polymorphism.deps.json
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\Polymorphism\bin\Debug\netcoreapp3.1\Polymorphism.runtimeconfig.json
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\Polymorphism\bin\Debug\netcoreapp3.1\Polymorphism.runtimeconfig.dev.json
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\Polymorphism\bin\Debug\netcoreapp3.1\Polymorphism.dll
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\Polymorphism\bin\Debug\netcoreapp3.1\Polymorphism.pdb
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\Polymorphism\obj\Debug\netcoreapp3.1\Polymorphism.csprojAssemblyReference.cache
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\Polymorphism\obj\Debug\netcoreapp3.1\Polymorphism.AssemblyInfoInputs.cache
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\Polymorphism\obj\Debug\netcoreapp3.1\Polymorphism.AssemblyInfo.cs
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\Polymorphism\obj\Debug\netcoreapp3.1\Polymorphism.dll
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\Polymorphism\obj\Debug\netcoreapp3.1\Polymorphism.pdb

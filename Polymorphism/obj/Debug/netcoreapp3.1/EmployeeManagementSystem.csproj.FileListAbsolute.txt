@@ -1,0 +1,11 @@
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\Polymorphism\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.exe
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\Polymorphism\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.deps.json
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\Polymorphism\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.runtimeconfig.json
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\Polymorphism\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.runtimeconfig.dev.json
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\Polymorphism\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.dll
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\Polymorphism\bin\Debug\netcoreapp3.1\EmployeeManagementSystem.pdb
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\Polymorphism\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.csprojAssemblyReference.cache
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\Polymorphism\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.AssemblyInfoInputs.cache
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\Polymorphism\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.AssemblyInfo.cs
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\Polymorphism\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.dll
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\Polymorphism\obj\Debug\netcoreapp3.1\EmployeeManagementSystem.pdb

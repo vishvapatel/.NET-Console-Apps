@@ -1,0 +1,11 @@
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\classesandobjects\bin\Debug\netcoreapp3.1\classesandobjects.exe
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\classesandobjects\bin\Debug\netcoreapp3.1\classesandobjects.deps.json
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\classesandobjects\bin\Debug\netcoreapp3.1\classesandobjects.runtimeconfig.json
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\classesandobjects\bin\Debug\netcoreapp3.1\classesandobjects.runtimeconfig.dev.json
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\classesandobjects\bin\Debug\netcoreapp3.1\classesandobjects.dll
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\classesandobjects\bin\Debug\netcoreapp3.1\classesandobjects.pdb
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\classesandobjects\obj\Debug\netcoreapp3.1\classesandobjects.AssemblyInfoInputs.cache
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\classesandobjects\obj\Debug\netcoreapp3.1\classesandobjects.AssemblyInfo.cs
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\classesandobjects\obj\Debug\netcoreapp3.1\classesandobjects.dll
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\classesandobjects\obj\Debug\netcoreapp3.1\classesandobjects.pdb
+C:\Users\-Vs8\source\repos\TCSXplorehands_OnCsharp\classesandobjects\obj\Debug\netcoreapp3.1\classesandobjects.csprojAssemblyReference.cache
