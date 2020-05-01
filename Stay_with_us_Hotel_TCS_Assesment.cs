@@ -47,7 +47,10 @@ namespace StaywithusHotelApp
                     checkout = Convert.ToDateTime(Console.ReadLine());
                     inmates = Convert.ToInt32(Console.ReadLine());
                     rent = Convert.ToInt32(Console.ReadLine());
+                   // int age = DateTime.Now.Year - dob.Year; might result in an error
                     int age = DateTime.Now.Year - dob.Year;
+			        if(DateTime.Now.Month < dob.Month || (DateTime.Now.Month == dob.Month && DateTime.Now.Day < dob.Day))
+				    age--;
                     if (age <= 18)
                     {
                         Console.WriteLine("Guest is too young to accomodate");
@@ -87,14 +90,20 @@ namespace StaywithusHotelApp
                     {
                         Console.WriteLine("Invalid amount");
                     }
+                    
+                    bool flag = true; //Flag variable
                     if(hotel.Singleroomcount ==0 && hotel.Classicroomcount ==0 && hotel.Deluxeroomcount == 0)
                     {
                         Console.WriteLine($"{guest_name} cannot be accomodated as no rooms are available");
+                        flag = false; //Assigned 
                         
                     }
-                    Guest g = new Guest(guest_name,age,duration,inmates,rent) ;
-                    guestlist.Add(g);
-                    Console.WriteLine($"{guest_name} was added to the guest list");
+                    if(flag) //Following statements need to be inside an if block so that they don't get executed if there are no rooms available.
+                    {
+                        Guest g = new Guest(guest_name,age,duration,inmates,rent) ;
+                        guestlist.Add(g);
+                        Console.WriteLine($"{guest_name} was added to the guest list");
+                    }
                     break;
 
                case 3:
@@ -107,6 +116,8 @@ namespace StaywithusHotelApp
                     DateTime dob1 = Convert.ToDateTime(Console.ReadLine());
                     int ag = DateTime.Now.Year - dob1.Year;
                     bool flag = true;
+                    
+                    Guest g = null;
                     foreach(Guest guest in guestlist)
                     {
                         if(guest.name == nme && guest.Age == ag)
@@ -125,9 +136,14 @@ namespace StaywithusHotelApp
                             {
                                 hotel.Deluxeroomcount++;
                             }
-                            guestlist.Remove(guest);
+                            
+                           // guestlist.Remove(guest); Will throw an exception because you cannot modify a list inside a foreach loop.
+                            g = guest;
                         }
                     }
+                    
+                    guestlist.Remove(g); //Works fine here.
+                    
                     if (flag == true)
                     {
                         Console.WriteLine($"Guest with {nme} aged {ag} was not found");
