@@ -58,7 +58,7 @@ class Program
             //This case returns the 5 Most expensive orders from te order list.
             case 2:
                 var expensive = (from od in orderlist
-                                order by od.price
+                                order by od.price descending
                                 select od).Take(5);
                 foreach (var order in orderlist)
                 {
