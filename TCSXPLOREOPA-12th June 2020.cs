@@ -60,7 +60,7 @@ class Program
                 var expensive = (from od in orderlist
                                 order by od.price descending
                                 select od).Take(5);
-                foreach (var order in orderlist)
+                foreach (var order in expensive)
                 {
                     Console.WriteLine($"{order.name} placed order on {order.orderdate} with {order.quantity} item(s) for price {order.price} to {order.address}");
                 }
